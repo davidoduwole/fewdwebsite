@@ -1,9 +1,17 @@
-body{
-    background-color: blue;
+body { 
+    background-color: pink;
 }
 
 h1 {
     font-size: 2em;
     color: orange;
+    text-align: center;
 
 }
+
+p {
+    color: black;
+    font-size: 1em;
+    text-align: center;
+}
+
