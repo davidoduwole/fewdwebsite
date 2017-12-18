@@ -14,7 +14,7 @@ body {
 header {
     background:white;
     width: 100%;
-    height: 50px;
+    height: 76px;
     position: fixed;
     top: 0;
     left: 0;
@@ -25,35 +25,60 @@ header {
    
 .logo img {
     margin: 10px;
-    width: 150px;
-    height: 50px;
+    max-width: 100%;
 }
 
-footer {
-    display: flex;
-    background: white;
-    width: 100%;
-    height: 50px;
-    left: 0;
-    bottom: 0;
-    z-index: 1000;
+.telinfo {
+    display: none;
 }
+
+nav {
+    display: none;
+}
+
+
 /* */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
+    header {
+        justify-content: flex-start;
+    }
+
+    .telinfo {
+        background-color:white;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        flex-direction: column;
+    }
+    
+    #telheader {
+        font-family: 'Raleway';
+        color: black;
+        font-size: 1em;
+        padding: 5px;
+    }
+    
+    #telno {
+        font-family: 'Raleway';
+        color: black;
+        font-size: 1.5em;
+        align-self: center;
+    }
+    
+    #hamburger {
+	width: 32px;
+	height: 32px;
+    } 
     
 }
 /* */
-@media screen and (min-width: 1080px) {
-
-    header {
-        height: 76px;
+@media screen and (min-width: 1089px) {
+    #hamburger { 
+        display: none;
     }
 
-    .logo img {
-    margin: 10px;
-    width: 200px;
-    height: 50px;
-    padding: 0px;
+    header {
+        justify-content: space-between;
     }
 
     .nav {
@@ -62,6 +87,9 @@ footer {
         font-family: 'Raleway';
         background-color: white;
         align-self: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
     }
     
     .nav a {
@@ -75,24 +103,6 @@ footer {
     
     .nav li {
         display: inline-block;
-        padding: 5px
-    }
-    .telinfo {
-        background-color:white;
-        text-align: center;
-        align-self: center
-    }
-    
-    #telheader {
-        font-family: 'Raleway';
-        color: black;
-        font-size: 1em;
         padding: 5px;
-    }
-    
-    #telno {
-        font-family: 'Raleway';
-        color: black;
-        font-size: 1.75em;
     }
 }
