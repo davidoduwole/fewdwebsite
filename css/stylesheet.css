@@ -29,11 +29,11 @@ header {
 }
 
 .telinfo {
-    display: none;
+    display: none !important;
 }
 
 nav {
-    display: none;
+    display: none !important;
 }
 
 
@@ -65,17 +65,9 @@ nav {
         align-self: center;
     }
     
-    #hamburger {
-	width: 32px;
-	height: 32px;
-    } 
-    
 }
 /* */
 @media screen and (min-width: 1089px) {
-    #hamburger { 
-        display: none;
-    }
 
     header {
         justify-content: space-between;
