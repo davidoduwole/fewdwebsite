@@ -28,24 +28,28 @@ header {
     max-width: 100%;
 }
 
-@media screen and (max-width: 768px){
-    .telinfo {
-        display: none;
-        }
+.menu {
+    margin: 20px;
+
 }
 
-@media screen and (max-width: 1089px){
-    nav {
+#bar1, #bar2, #bar3{
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.telinfo {
     display: none;
-    }
 }
 
+nav {
+    display: none;
+ }
 
 /* */
 @media screen and (min-width: 768px) {
-    header {
-        justify-content: flex-start;
-    }
 
     .telinfo {
         background-color:white;
@@ -73,6 +77,10 @@ header {
 /* */
 @media screen and (min-width: 1089px) {
 
+    .menu {
+        display: none;
+    }
+ 
     header {
         justify-content: space-between;
     }
