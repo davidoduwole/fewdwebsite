@@ -28,12 +28,16 @@ header {
     max-width: 100%;
 }
 
-.telinfo {
-    display: none !important;
+@media screen and (max-width: 768px){
+    .telinfo {
+        display: none;
+        }
 }
 
-nav {
-    display: none !important;
+@media screen and (max-width: 1089px){
+    nav {
+    display: none;
+    }
 }
 
 
