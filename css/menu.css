@@ -1,0 +1,154 @@
+/* MOBILE STYLES FIRST */
+.burgerdrop ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: white;
+}
+
+.burgerdrop li a:hover {
+    background-color: white;
+}
+
+.burgerdrop .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+.burgerdrop li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: 'Raleway';
+    text-align: center;
+    color: black;
+}
+
+.burgerdrop .menu-icon {
+    cursor: pointer;
+    display: flex;
+    padding: 25px;
+    user-select: none;
+}
+
+.burgerdrop .menu-icon .navicon {
+    background: black;
+    display: block;
+    height: 3px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 25px;
+    margin: 5px;
+}
+
+.burgerdrop .menu-icon .navicon:before,
+.burgerdrop .menu-icon .navicon:after {
+    background: black;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.burgerdrop .menu-icon .navicon:before {
+    top: 5px;
+}
+
+.burgerdrop .menu-icon .navicon:after {
+    top: -5px;
+}
+
+.burgerdrop .menu-btn {
+    display: none;
+}
+
+.burgerdrop .menu-btn:checked ~ .menu {
+    max-height: 400px;
+}
+
+.burgerdrop .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+}
+
+.burgerdrop .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+.burgerdrop .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+.burgerdrop .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.burgerdrop .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+
+.nav {
+    display: none;
+}
+
+.telinfo {
+    display: none;
+}
+/* TABLET SCREENS */
+@media screen and (min-width: 768px) {
+
+.telinfo {
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+#telheader {
+    font-family: 'Raleway';
+    color: black;
+    font-size: 1em;
+}
+
+#telno {
+    font-family: 'Raleway';
+    color: black;
+    font-size: 1.5em;
+    align-self: center;
+}
+
+}
+/* LAPTOP SCREENS */
+@media screen and (min-width: 1024px){
+
+.burgerdrop {
+    display: none;
+}
+
+.nav {
+    padding: 5px;
+    font-size: 1em;
+    font-family: 'Raleway';
+    background-color: white;
+    align-self: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.nav a {
+    color:black;
+    text-decoration: none;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 5px;
+}
+
+}

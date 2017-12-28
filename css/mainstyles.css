@@ -1,0 +1,58 @@
+/* MOBILE STYLES FIRST */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.logo {
+    margin: 8px;
+    max-width: 100%;
+}
+
+header  {
+    background-color: green;
+    width: 100%;
+    z-index: 1000;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.slideshow {
+    width: 100%;
+    height: 1000px;
+    background-color: red;
+    border: 1px solid pink;
+}
+
+article {
+    height: 400px;
+    display: flex;
+    background-color: yellow;
+    border: 1px solid black;
+    z-index: 999;
+}
+
+footer {
+    display: flex;
+    background: orange;
+    height: 76px;
+    width: 100%;
+    position: absolute;
+    top: 2250px;
+}
+/* TABLET SCREENS */
+@media screen and (min-width: 768px){
+}
+
+/* LAPTOP SCREENS */
+@media screen and (min-width: 1024px){
+}

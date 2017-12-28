@@ -5,14 +5,12 @@ body {
 }
 
 .findall {
-    position: relative;
-    top: 76px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     border: 2px solid black;
- 
+    max-width: 100%;
 }
 .findus {
     font-family: 'Raleway';
@@ -38,11 +36,4 @@ body {
     font-family: 'Raleway';
     font-size: 0.75em;
     margin: 5px;
-}
-
-@media screen and (min-width: 768px) {
-}
-
-
-@media screen and (min-width: 1100px) {
 }
