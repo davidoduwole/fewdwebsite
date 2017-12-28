@@ -2,15 +2,14 @@
 .slideshow {
     width: 100%;
     height: auto;
-    position: relative;
   }
   
   .slideshow img {
-    position: absolute;
     width: 100%;
     height: auto;
     animation: round 16s infinite;
     opacity: 0;
+    position: absolute;
   }
   
   @keyframes round {
