@@ -43,7 +43,7 @@
     padding: 15px 32px;
     text-align: center;
     display: flex;
-    font-size: 25px;
+    font-size: 1.5em;
     border-radius: 50%;
     height: 170px;
     width: 170px;
@@ -79,13 +79,49 @@ img:nth-child(4) { animation-delay: 0s; }
 
 /* TABLET SCREENS */
 @media screen and (min-width:768px){
+
     .buttons{
         flex-direction: row;    
+    }   
+
+
+    .button1, .button2, .button3 {
+        padding: 15px 32px;
+        font-size: 2em;
+        height: 220px;
+        width: 220px;
     }
+
+    .slidewrite {
+        font-size: 2em;
+        top: 150px;
+        position: absolute;
+    }
+    .slidewrite2 {
+        font-size: 2em;
+        top: 300px;
+        position: absolute;
+    }
+    
 
 }
 
 /* LAPTOP SCREENS */
 @media screen and (min-width:1024px){
+
+    .button1, .button2, .button3 {
+        padding: 15px 32px;
+        font-size: 3em;
+        height: 270px;
+        width: 270px;
+    }
+
+    .slidewrite {
+        font-size: 3em;
+    }
+    .slidewrite2 {
+        font-size: 3em;
+    }
+    
 
 }
