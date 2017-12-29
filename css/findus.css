@@ -2,6 +2,7 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .findall {
@@ -12,6 +13,7 @@ body {
     border: 2px solid black;
     max-width: 100%;
 }
+
 .findus {
     font-family: 'Raleway';
     font-size: 1.15em;
@@ -36,4 +38,9 @@ body {
     font-family: 'Raleway';
     font-size: 0.75em;
     margin: 5px;
+}
+
+#map {
+    height: 400px;
+    width: 400px;
 }
