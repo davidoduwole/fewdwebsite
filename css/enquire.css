@@ -6,4 +6,48 @@
     width: 100%;
     height: 1000px;
 }
-  
+
+.formall {
+    position: absolute;
+    top: 70px;
+    opacity: 0.99;
+    background: white;
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Raleway';
+}
+
+form {
+    margin: 10px;
+    width:90%;
+}
+
+/* Makes responsive fields. Sets size and field alignment.*/
+input[type=text]{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width:100%;
+    padding: 15px;
+    border:1px solid gray;
+}
+
+input[type=submit] {
+    margin-bottom: 20px;
+    width: 45%;
+    padding: 15px;
+    border:1px solid gray;
+    background-color: darkslategray;
+    color: yellow;
+    font-size:15px;
+    cursor:pointer;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border:1px solid gray;
+    margin-bottom: 20px;
+    resize:none;
+}
