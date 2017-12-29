@@ -40,7 +40,18 @@ body {
     margin: 5px;
 }
 
+/* Google Maps */
 #map {
     height: 400px;
-    width: 400px;
+    width: 100%;
+}
+
+/* TABLET SCREENS */
+@media screen and (min-width:768px){
+
+}
+
+/* LAPTOP SCREENS */
+@media screen and (min-width:1024px){
+    
 }
