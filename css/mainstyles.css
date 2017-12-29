@@ -44,8 +44,11 @@ header  {
 
 footer {
     display: flex;
-    background: orange;
-    height: 76px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    height: auto;
     width: 100%;
 }
 /* TABLET SCREENS */
