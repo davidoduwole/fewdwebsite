@@ -5,6 +5,7 @@
     list-style: none;
     overflow: hidden;
     background-color: white;
+    opacity: 0.9;
 }
 
 .burgerdrop li a:hover {

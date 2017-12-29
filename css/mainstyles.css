@@ -34,11 +34,12 @@ header  {
 .index1, .index2, .index3 {
     height: auto;
     display: flex;
-    width: 100%;
+    justify-content: space-between;
     text-align: center;
+    width: 100%;
     font-family: 'Raleway';
     font-size: 0.9em;
-    padding: 15px;
+    padding: 20px;
 }
 
 footer {

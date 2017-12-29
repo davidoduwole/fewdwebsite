@@ -1,38 +1,45 @@
 .wwdinfo {
-    background: red;
-    top: 61px;
-    position: relative;
+    padding-top: 61px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: left;
 }
 .whatwedo {
+    padding-left: 20px;
     font-family: 'Raleway';
-    font-size: 1.5em;
-    border: 1px solid black;
+    font-size: 1.25em;
+    font-weight: 600;
+    align-self: flex-start;
 }
 
 .wwd1 {
+    padding-left: 20px;
     font-family: 'Raleway';
-    font-size: 0.75em;
-    border: 1px solid black;
+    font-size: 0.9em;
 }
 
 .wwd2 {
-    text-align: center;
+    padding: 20px;
+    padding-bottom: 0px;
     font-family: 'Raleway';
-    font-size: 0.75em;
-    border: 1px solid black;
+    font-size: 0.9em;
 }
 
 .wwd3 {
+    padding: 20px;
+    padding-bottom: 0px;
     font-family: 'Raleway';
-    font-size: 0.75em;
-    border: 1px solid black;
+    font-size: 0.9em;
 }
 
 .wwd4 {
+    padding: 20px;
     font-family: 'Raleway';
-    font-size: 0.75em;
+    font-size: 0.9em;
     text-decoration: none;
-    border: 1px solid black;
 }
 
 /* TABLET SCREENS */
