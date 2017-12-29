@@ -1,3 +1,4 @@
+/* MOBILE STYLES FIRST */
 .slideshow {
     width: 100%;
     height: 1000px;
@@ -23,7 +24,6 @@ form {
     width:90%;
 }
 
-/* Makes responsive fields. Sets size and field alignment.*/
 input[type=text]{
     margin-bottom: 20px;
     margin-top: 10px;
@@ -50,4 +50,50 @@ textarea {
     border:1px solid gray;
     margin-bottom: 20px;
     resize:none;
+}
+
+.eart {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: left;
+}
+.earthead {
+    padding-left: 20px;
+    font-family: 'Raleway';
+    font-size: 1.25em;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.eart1 {
+    padding-left: 20px;
+    font-family: 'Raleway';
+    font-size: 0.9em;
+}
+
+.eart2 {
+    padding: 20px;
+    font-family: 'Raleway';
+    font-size: 0.9em;
+}
+
+.eart3 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    font-family: 'Raleway';
+    font-size: 0.9em;
+}
+
+@media screen and (min-width:768px){
+    
+}
+
+@media screen and (min-width:1024px){
+    
 }

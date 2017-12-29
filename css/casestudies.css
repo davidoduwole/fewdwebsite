@@ -1,4 +1,33 @@
 /* MOBILE STYLES FIRST */
+.csinfo {
+    padding-top: 61px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: left;
+}
+.cs {
+    padding-left: 20px;
+    font-family: 'Raleway';
+    font-size: 1.25em;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.cs1 {
+    padding-left: 20px;
+    font-family: 'Raleway';
+    font-size: 0.9em;
+}
+
+.cs2 {
+    padding: 20px;
+    padding-bottom: 0px;
+    font-family: 'Raleway';
+    font-size: 0.9em;
+}
 
 /* TABLET SCREENS */
 @media screen and (min-width:768px){
